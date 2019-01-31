@@ -1,0 +1,113 @@
+/**NAV BAR**/
+nav {
+	background-color: grey;
+	padding: 5px;
+	text-align: center;
+}
+nav a {
+	color: white;
+}
+nav li {
+	display: inline-block;
+	text-decoration: none;
+	margin: 0px 10px 0px 10px;
+}
+div.box1, div.box2 {
+	background-color: white;
+
+}
+div.box1 li a, div.box2 li a {
+	color:blue;
+}
+img {
+	width:100%;
+}
+div.box1, div.box2 {
+	margin: 0px -10px 0px -10px;
+}
+
+
+
+/**section picture tweakings**/
+
+
+div.box2 {
+	margin-top: -20px;
+
+}
+
+}
+/**REDCROSS SECTION**/
+#redcross {
+	background-color: white;
+}
+}
+div.redcross {
+	background-color: white;
+}
+div.redcross a {
+	color:blue;
+	background-color: white;
+}
+div.redcross img{
+	width:25%;
+	height:auto;
+	position: center;
+}
+#redcross a {
+	text-align: center;
+}
+
+/**DOUBLE PIC SECTION**/
+div.section1 img{
+	display: inline-block;
+	width:45%;
+	height:480px;
+}
+div.section2 img{
+	display: inline-block;
+	width:45%;
+	height:480px;
+}
+div.section3 img{
+	display: inline-block;
+	width:45%;
+	height:480px;
+}
+
+
+}
+/**Footer Section**/
+footer {
+	background-color: #d3d3d3;
+	padding-top: -100px;
+	text-align: center;
+}
+
+
+/**Columns Section**/
+.column a {
+	color: black;
+	text-decoration: none;
+
+}
+.column {
+	float:left;
+	width:10%;
+	text-align: center;
+
+}
+/*CLEAR FLOATS AFTER THE COLUMNS*/
+.row;after {
+	content: "";
+	display:table;
+	clear:both;
+}
+li {
+	display: block;
+	text-align: center;
+}
+#column_container {
+	margin: 0px auto;
+	column-width: 20%;
+}
